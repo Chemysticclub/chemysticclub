@@ -432,14 +432,65 @@
         <section id="home">
             <h1><b>Welcome to Chemysticclub</b></h1>
             <p><h3>Explore our precious chemistry resources designed only for you.</h3></p>
-            <img src="logo2.png" alt="Chemistry banner" style="width:80%; border-radius:8px; margin:20px 0; box-shadow:0 4px 12px rgba(0,0,0,0.1);">
-        </section>
-        
-        <section id="periodic-table">
-            <h2>Modern Periodic Table</h2>
-            <img src="mpt2.jpg" style="width:100%; border-radius:8px; margin:10px 0; box-shadow:0 2px 8px rgba(0,0,0,0.1);">
-            <div style="background-color:#f8f9fa; padding:25px; text-align:center; border-radius:8px; margin-top:20px; border:1px solid #e0e6ed;">
-                <h3>Explore the Modern Periodic Table with us!!</h3>
+            
+            <div style="display: flex; align-items: center; gap: 40px; margin-top: 30px; background: linear-gradient(to right, rgba(52, 152, 219, 0.1), rgba(255,255,255,0.5)); padding: 30px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.08);">
+                <!-- Image on the left with hover effect -->
+                <div style="width: 40%; position: relative;">
+                    <img src="logo2.png" alt="Chemistry banner" 
+                         style="width:100%; border-radius:12px; box-shadow:0 6px 18px rgba(0,0,0,0.15); transition: all 0.4s ease;"
+                         onmouseover="this.style.transform='scale(1.03)'; this.style.boxShadow='0 10px 25px rgba(0,0,0,0.2)';" 
+                         onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 6px 18px rgba(0,0,0,0.15)';">
+                    <div style="position: absolute; bottom: -15px; left: 50%; transform: translateX(-50%); background: #3498db; color: white; padding: 8px 20px; border-radius: 50px; font-weight: bold; box-shadow: 0 4px 12px rgba(52, 152, 219, 0.3);">
+                        Chemistry Simplified
+                    </div>
+                </div>
+                
+                <!-- Enhanced bullet points on the right -->
+                <div style="width: 60%;">
+                    <h3 style="color: #2c3e50; margin-top: 0; font-size: 1.8em; position: relative; display: inline-block;">
+                        <span style="content: ''; position: absolute; bottom: -5px; left: 0; width: 409px; height: 3px; background: #3498db;"></span>
+                        Why Choose Chemysticclub?
+                    </h3>
+                    
+                    <ul style="list-style-type: none; padding-left: 0; margin-top: 25px;">
+                        <li style="margin-bottom: 18px; display: flex; align-items: flex-start; transition: all 0.3s ease; padding: 12px 15px; border-radius: 8px;"
+                            onmouseover="this.style.backgroundColor='rgba(52, 152, 219, 0.08)'; this.style.transform='translateX(5px)';" 
+                            onmouseout="this.style.backgroundColor='transparent'; this.style.transform='translateX(0)';">
+                            <span style="color: #3498db; font-weight: bold; margin-right: 15px; font-size: 1.2em;">•</span>
+                            <span style="font-size: 1.1em;">Comprehensive chemistry resources for all levels from beginner to advanced</span>
+                        </li>
+                        <li style="margin-bottom: 18px; display: flex; align-items: flex-start; transition: all 0.3s ease; padding: 12px 15px; border-radius: 8px;"
+                            onmouseover="this.style.backgroundColor='rgba(52, 152, 219, 0.08)'; this.style.transform='translateX(5px)';" 
+                            onmouseout="this.style.backgroundColor='transparent'; this.style.transform='translateX(0)';">
+                            <span style="color: #3498db; font-weight: bold; margin-right: 15px; font-size: 1.2em;">•</span>
+                            <span style="font-size: 1.1em;">Interactive calculators and tools for instant problem solving</span>
+                        </li>
+                        <li style="margin-bottom: 18px; display: flex; align-items: flex-start; transition: all 0.3s ease; padding: 12px 15px; border-radius: 8px;"
+                            onmouseover="this.style.backgroundColor='rgba(52, 152, 219, 0.08)'; this.style.transform='translateX(5px)';" 
+                            onmouseout="this.style.backgroundColor='transparent'; this.style.transform='translateX(0)';">
+                            <span style="color: #3498db; font-weight: bold; margin-right: 15px; font-size: 1.2em;">•</span>
+                            <span style="font-size: 1.1em;">Premium video lectures and downloadable study materials</span>
+                        </li>
+                        <li style="margin-bottom: 18px; display: flex; align-items: flex-start; transition: all 0.3s ease; padding: 12px 15px; border-radius: 8px;"
+                            onmouseover="this.style.backgroundColor='rgba(52, 152, 219, 0.08)'; this.style.transform='translateX(5px)';" 
+                            onmouseout="this.style.backgroundColor='transparent'; this.style.transform='translateX(0)';">
+                            <span style="color: #3498db; font-weight: bold; margin-right: 15px; font-size: 1.2em;">•</span>
+                            <span style="font-size: 1.1em;">Created by chemistry experts and passionate educators</span>
+                        </li>
+                        <li style="display: flex; align-items: flex-start; transition: all 0.3s ease; padding: 12px 15px; border-radius: 8px;"
+                            onmouseover="this.style.backgroundColor='rgba(52, 152, 219, 0.08)'; this.style.transform='translateX(5px)';" 
+                            onmouseout="this.style.backgroundColor='transparent'; this.style.transform='translateX(0)';">
+                            <span style="color: #3498db; font-weight: bold; margin-right: 15px; font-size: 1.2em;">•</span>
+                            <span style="font-size: 1.1em;">100% free access - learn without any barriers</span>
+                        </li>
+                    </ul>
+                    
+                    <!-- <button style="margin-top: 20px; padding: 12px 30px; background: linear-gradient(135deg, #3498db, #2980b9); color: white; border: none; border-radius: 50px; cursor: pointer; font-weight: bold; font-size: 1.1em; transition: all 0.3s ease; box-shadow: 0 4px 15px rgba(52, 152, 219, 0.3);"
+                            onmouseover="this.style.transform='translateY(-3px)'; this.style.boxShadow='0 6px 20px rgba(52, 152, 219, 0.4)';" 
+                            onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 15px rgba(52, 152, 219, 0.3)';">
+                        Start Learning Now →
+                    </button> -->
+                </div>
             </div>
         </section>
         
