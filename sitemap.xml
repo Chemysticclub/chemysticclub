@@ -1,16 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+    
+    <!-- Homepage (REQUIRED) -->
+    <url>
+        <loc>https://chemysticclub.github.io/chemysticclub/</loc>
+        <lastmod>2025-04-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <!-- About Page (EXAMPLE) -->
+    <url>
+        <loc>https://chemysticclub.github.io/chemysticclub/about.html</loc>
+        <lastmod>2025-04-01</lastmod>
+        <priority>0.8</priority>
+    </url>
+    
+    <!-- Calculators Page (EXAMPLE) -->
+    <url>
+        <loc>https://chemysticclub.github.io/chemysticclub/calculators.html</loc>
+        <lastmod>2025-04-01</lastmod>
+    </url>
 
-
-<url>
-  <loc>https://chemysticclub.github.io/chemysticclub/</loc>
-  <lastmod>2025-04-01T16:54:05+00:00</lastmod>
-</url>
-
-
+    <!-- Add more pages as needed -->
 </urlset>
