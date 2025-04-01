@@ -4,7 +4,7 @@
         xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     
-    <!-- Homepage (REQUIRED) -->
+    <!-- Home Page -->
     <url>
         <loc>https://chemysticclub.github.io/chemysticclub/</loc>
         <lastmod>2025-04-01</lastmod>
@@ -12,18 +12,10 @@
         <priority>1.0</priority>
     </url>
     
-    <!-- About Page (EXAMPLE) -->
+    <!-- Add other pages like this: -->
     <url>
         <loc>https://chemysticclub.github.io/chemysticclub/about.html</loc>
         <lastmod>2025-04-01</lastmod>
-        <priority>0.8</priority>
     </url>
     
-    <!-- Calculators Page (EXAMPLE) -->
-    <url>
-        <loc>https://chemysticclub.github.io/chemysticclub/calculators.html</loc>
-        <lastmod>2025-04-01</lastmod>
-    </url>
-
-    <!-- Add more pages as needed -->
 </urlset>
